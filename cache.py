@@ -3,7 +3,6 @@ A cache is a dictionary with set index (int) as key, and a list of
 (address, state) pairs. The number of pairs in the list is determined by
 associativity.
 '''
-
 class Cache:
     def __init__(self, cache_size, block_size, assoc):
         self.cache_size = cache_size # number of bytes
